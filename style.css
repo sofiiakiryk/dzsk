@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+.wrapper {
+  max-width: 1220px;
+  margin: auto;
+}
+.hadder {
+  min-height: 1175px;
+  background-image: url(Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-position: center;
+  padding-top: 53px;
+  box-sizing: border-box;
+}
+.hadder-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hadder-link {
+  color: #c6c0c0;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+.hadder-links {
+  display: flex;
+  gap: 55px;
+}
+body {
+  font-family: "Noto Sans";
+}
+@media (max-width: 505px) {
+  .hadder-menu {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+@media (max-width: 347px) {
+  .hadder-links {
+    flex-direction: column;
+    gap: 18px text-ali;
+  }
+}
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  margin: auto;
+  width: 706px;
+  color: beige;
+  font-size: 60px;
+  line-height: 70px;
+  margin-top: 100px;
+}
+.subtitle {
+  color: #c6c0c0;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  width: 867px;
+  margin-bottom: 50px;
+}
+
+.input-wrapper {
+  display: block;
+  max-width: 360px;
+  position: relative;
+  margin: auto;
+}
+
+.input {
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 16px 19px;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+.input-buttom {
+  height: 38px;
+  width: 38px;
+  border-radius: 100px;
+  border: none;
+  background-color: #b8b6b3;
+  background-image: url("button search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  position: absolute;
+  right: 9px;
+  top: 11px;
+}
+.info {
+  padding: 120px 0;
+}
+.info-conteiner {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-with: 760px) {
+  .info-conteiner {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
+.info-iteam {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 368px;
+}
+.catalog {
+  text-align: center;
+}
+.catalog-title {
+  font-size: 36px;
+  line-height: 48px;
+}
+.info-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2e2a2a;
+  margin-bottom: 16px;
+}
+.info-descr {
+  color: #686161;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 318px;
+}
+
+.name {
+  max-width: 200px;
+}
+.catalog-link {
+  text-decoration: none;
+  font-size: 16;
+  font-style: regular;
+  line-height: 22px;
+  color: #8c8585;
+}
+.catalog-links {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.catalog-title {
+  padding: 20px;
+}
+.link {
+  color: #2e2a2a;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  position: relative;
+  bottom: 50;
+}
+.decoration {
+  margin-right: 430px;
+}
